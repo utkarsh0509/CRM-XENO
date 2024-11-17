@@ -18,7 +18,7 @@ const GoogleAuth = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <GoogleLogin
-        clientId="Insert your Client ID"
+        clientId="798079190056-nlqeq053m03n41cfmuct289bulam7gft.apps.googleusercontent.com"
         buttonText="Login with Google"
         onSuccess={responseGoogle}
         onFailure={responseGoogle}
